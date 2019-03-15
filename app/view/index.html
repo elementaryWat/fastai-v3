@@ -7,9 +7,9 @@
 <body>
 <div>
     <div class='center'>
-        <div class='title'>Classify Avengers Images </div>
+        <div class='title'>Reconocimiento de Vengadores </div>
         <p>
-            Use images of <strong>Ironman</strong>, <strong>Captain America</strong>, <strong>Thor</strong>, <strong>Spiderman</strong>, or
+            Usar imágenes de <strong>Ironman</strong>, <strong>Captain America</strong>, <strong>Thor</strong>, <strong>Spiderman</strong>, o
             <strong>Hulk</strong>
         </p>
         <div class='content'>
@@ -21,15 +21,15 @@
                        accept='image/*'
                        onchange='showPicked(this)'>
             </div>
-            <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+            <button class='choose-file-button' type='button' onclick='showPicker()'>Seleccionar imagen</button>
             <div class='upload-label'>
-                <label id='upload-label'>No file chosen</label>
+                <label id='upload-label'>No se ha seleccionado ninguna imagen</label>
             </div>
             <div>
                 <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
             </div>
             <div class='analyze'>
-                <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+                <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Reportáte con una imagen</button>
             </div>
             <div class='result-label'>
                 <label id='result-label'></label>
